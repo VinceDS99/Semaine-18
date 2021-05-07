@@ -1,0 +1,49 @@
+Commit PHP
+
+Ajout des photos des annonces pour : page vente, location et details,
+Modification de la note maximum : passée de 10 à 5,
+Affichage de tous les commentaires sur la page d'accueil remplacé par l'affichage du top commentaire et du pire commentaire,
+Ajout d'une page 'tous les commentaires' accessibble depuis le bas de l'accueil,
+Note moyenne générale de l'entreprise maintenant arrondie à un chiffre aprés la virgule,
+Heure d'ajout des commentaires maintenant adapté au fuseau horaire Français,
+Maintenant, lorsque rien n'est trouvé après une recherche, un message est affiché.
+
+
+
+Commit PHP Vincent&Julien
+
+Modification deu fichier config autoload pour prendre en charge les essions,
+Ajout de la possibilité de se connecter en tant qu'internaute ou employé si les identifiants sont bons,
+Ajout de la possibilié de se déconnecter,
+Seul un internaute connecté peut maintenant laisser un commentaire,
+Seul un employé connecté peut maintenant accéder aux pages admin,
+Page "votre compte" uniquement accessible si connecté sinon redirigé vers la page de connexion,
+Modification d'emplacement de certaines fonctions sur d'autres controllers,
+Modification de certains liens,
+Formulaire de contact accessible uniquement par internaute connecté ou sinon redirigé vers page de connexion,
+ID du formulaire de contact envoyé maintenant correspondant a l'id de la session,
+ID de l'envoi de commentaire maintenant correspondant a l'id de la session.
+
+
+
+Commit PHP 
+
+Ajout de la vue 'HeaderView' avec tous les liens menant aux différentes pages,
+Chargement de la vue 'HeaderView' pour chacune des fonctions des controllers,
+Ajout d'url généré automatiquement pour chaque lien,
+Accés aux différentes pages accepté ou refusé selon si : pas connecté /connecté en tant qu'internaute / connecté en tant qu'employés,
+Un message d'erreur différent selon la raison du refus de l'accés à la page,
+Ajout des nouveaux types de biens sur la barre de recherche.
+
+
+
+
+
+
+
+
+
+
+
+
+
